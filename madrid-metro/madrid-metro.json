@@ -1,0 +1,79 @@
+{
+  "format_version" : "1.0",
+  "generated_by" : "cytoscape-3.1.1",
+  "target_cytoscapejs_version" : "~2.1",
+  "data" : {
+    "selected" : true,
+    "__Annotations" : [ "" ],
+    "shared_name" : "madrid-fake-map",
+    "SUID" : 20760,
+    "name" : "madrid"
+  },
+  "elements" : {
+    "nodes" : [ {
+      "data" : {
+        "id" : "1",
+        "station_name" : "A",
+        "close_ymd" : "",
+        "lon" : 139.866875,
+        "post" : "",
+        "e_status" : 0,
+        "SUID" : 8220,
+        "station_g_cd" : 2300110,
+        "add" : "東京都葛飾区高砂五丁目28-1",
+        "line_cd" : 99340,
+        "selected" : false,
+        "open_ymd" : "",
+        "name" : "A",
+        "pref_name" : "東京都",
+        "shared_name" : "9934001",
+        "lat" : 35.750932,
+        "y" : 1,
+        "x" : 1
+      },
+      "position" : {
+        "x" : 1,
+        "y" : 1
+      },
+      "selected" : false
+    },
+      {
+        "data" : {
+          "id" : "2",
+          "station_name" : "B",
+          "close_ymd" : "",
+          "lon" : 139.866875,
+          "post" : "",
+          "e_status" : 0,
+          "SUID" : 8220,
+          "station_g_cd" : 2300110,
+          "add" : "東京都葛飾区高砂五丁目28-1",
+          "line_cd" : 99340,
+          "selected" : false,
+          "open_ymd" : "",
+          "name" : "B",
+          "pref_name" : "東京都",
+          "shared_name" : "9934001",
+          "lat" : 35.750932,
+          "y" : 1,
+          "x" : 100
+        },
+        "position" : {
+          "x" : 100,
+          "y" : 1
+        },
+        "selected" : false
+      }
+    ],
+    "edges": [
+      {
+        "data": {
+          "id" : "10001",
+          "source" : "1",
+          "target" : "2"
+        },
+        "selected": false
+      }
+    ]
+  }
+}
